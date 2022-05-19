@@ -1,0 +1,336 @@
+.App {
+  text-align: center;
+}
+
+.Container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+h1 {
+  position: absolute;
+  top: 1%;
+  font-size: 3rem;
+}
+.Klik-box {
+  background-color: #f5a26c00;
+  position: fixed;
+  top: 13%;
+  border: 2px solid rgb(253, 253, 253);
+  width: 15em;
+  height: 27em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.Klik-modèle {
+  position: absolute;
+  top: 17%;
+  left: 16%;
+  width: 70%;
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.Klik-logo {
+  position: absolute;
+  top: -12%;
+  width: 5em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Klik-logo-Custom {
+  background-color: transparent;
+  position: relative;
+  top: -43.5%;
+  left: -38%;
+  width: 2.5em;
+  height: 2.5em;
+  z-index: 2;
+  rotate: -45deg;
+}
+.Klik-corner {
+  background-color: transparent;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: inline-block;
+  height: 0em;
+  width: 0em;
+  border-top: 160px solid #f5a26c;
+  border-right: 160px solid transparent;
+  z-index: 0;
+}
+.Klik-nuage {
+  position: absolute;
+  bottom: -18.7%;
+  width: 37.5em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+.Klik-bordure {
+  position: absolute;
+  top: -12%;
+  width: 95%;
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.Klik-reuse {
+  position: absolute;
+  top: -22%;
+  right: 4%;
+  width: 3em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.Form-1 {
+  position: absolute;
+  left: 10%;
+  top: 13%;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 10%;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.Form-2 {
+  position: absolute;
+  left: 10%;
+  top: 52%;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 10%;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.mb-2 {
+  margin-left: 1rem;
+}
+
+.Form-3 {
+  position: absolute;
+  right: 8%;
+  top: 13%;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 12%;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.mb-3 {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.Form-4 {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  width: 10%;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+h4 {
+  position: absolute;
+  top: -52%;
+  font-size: 1.3rem;
+}
+.valider {
+  position: absolute;
+  bottom: 7%;
+  right: 8%;
+  font-size: 1.5rem;
+  width: 12%;
+  height: 3em;
+}
+.Form-5 {
+  position: absolute;
+  left: 10%;
+  top: 32%;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 10%;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: left;
+}
+label {
+  margin: 1.5rem;
+}
+
+.custom {
+  position: absolute;
+  left: -307%;
+  top: 50%;
+  width: 120%;
+  height: 6em;
+  object-fit: contain;
+}
+.customButton {
+  position: absolute;
+  top: 45%;
+  left: 11%;
+  right: 0%;
+  width: 78%;
+  height: 2em;
+  background-color: #f5a26c;
+  border: 2px solid #f5a26c;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  transition: 0.3s;
+}
+.customButton:hover {
+  background-color: #f5a26c00;
+  color: #f5a26c;
+}
+
+.clearButton {
+  position: absolute;
+  top: 140%;
+  left: 15%;
+  right: 0%;
+  width: 70%;
+  height: 2em;
+  background-color: #f5a26c;
+  border: 2px solid #f5a26c;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  transition: 0.3s;
+}
+.clearButton:hover {
+  background-color: #f5a26c00;
+  color: #f5a26c;
+}
+.colorpick {
+  position: absolute;
+  width: 120%;
+  top: 0%;
+  left: 0%;
+}
+
+.client {
+  position: absolute;
+  left: 10%;
+  bottom: 6%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.client input {
+  font-family: "Helvetica";
+  width: 100%;
+  height: 1.5em;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #f5a26c;
+  padding-left: 5px;
+  margin-top: -20px;
+}
+.mail {
+  position: absolute;
+  left: 10%;
+  bottom: 100%;
+}
+
+.commentaire {
+  position: absolute;
+  bottom: 23%;
+  right: 8.5%;
+  font-size: 1rem;
+  width: 11.5%;
+  height: 3em;
+}
+.commentaire textarea {
+  position: absolute;
+  width: 99%;
+  height: 80%;
+  right: -3%;
+  top: 80%;
+  resize: none;
+  padding-left: 5px;
+  font-family: "Helvetica";
+  background-color: transparent;
+  color: white;
+  border: 2px solid #f5a26c;
+}
+.form {
+  position: absolute;
+  left: 5%;
+  top: 65%;
+  max-width: 90%;
+  height: 100%;
+}
+
+.valider {
+  background-color: #f5a26c;
+  border: 2px solid #f5a26c;
+  border-radius: 10px;
+  color: white;
+  height: 8%;
+  width: 12%;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.valider:hover {
+  background-color: #f5a26c00;
+  color: #f5a26c;
+}
