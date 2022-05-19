@@ -29,7 +29,6 @@ function Custom() {
   const [reuseImg, setReuseImg] = useState(reuse);
   const [modèleImg, setModèleImg] = useState(modèle);
   const [noir, setNoir] = useState(false);
-  const [images, setImages] = useState([]);
   const [imageUrl, setImageUrl] = useState([]);
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -42,7 +41,6 @@ function Custom() {
     setBackground(color.hex);
   };
   const imageClear = () => {
-    setImages([]);
     setImageUrl([]);
     setImgUrl([]);
   };
@@ -65,6 +63,7 @@ function Custom() {
       },
       (error) => {
         alert(error);
+        console.log(progresspercent)
       },
       () => {
         getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
