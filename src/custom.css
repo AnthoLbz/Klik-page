@@ -334,3 +334,216 @@ label {
   background-color: #f5a26c00;
   color: #f5a26c;
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1650px) and (max-height: 801px) {
+  
+  h1 {
+  top: -2%;
+  font-size: 2.5rem;
+}
+.Klik-box {
+  top: 10%;
+}
+  
+  .Form-1 {
+    left: 10%;
+    top: 18%;
+    width: 13%;
+    height: 3em;
+    font-size: 1.2rem;
+  }
+
+  .Form-2 {
+    left: 10%;
+    top: 52%;
+    width: 13%;
+    height: 3em;
+    font-size: 1.2rem;
+  }
+  .Form-3 {
+    right: 4%;
+    top: 18%;
+    width: 16%;
+    height: 4em;
+    font-size: 1.2rem;
+  }
+  .Form-3 h4 {
+    top: -80%;
+    font-size: 1.2rem;
+  }
+
+  .Form-4 {
+    right: 7%;
+    top: 40%;
+    width: 13%;
+    height: 5em;
+    font-size: 1.2rem;
+  }
+
+  .Form-4 h4 {
+    position: absolute;
+    top: -60%;
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    top: -100%;
+    font-size: 1.2rem;
+  }
+  .valider {
+    bottom: 7%;
+    right: 8%;
+    font-size: 1.5rem;
+    width: 12%;
+    height: 3em;
+  }
+  .Form-5 {
+    left: 10%;
+    top: 35%;
+    width: 13%;
+    height: 3em;
+    font-size: 1.2rem;
+  }
+
+ 
+.clearButton {
+  position: absolute;
+  top: 145%;
+}
+  .client {
+    left: 10%;
+    bottom: 8.5%;
+    font-size: 1.3rem;
+  }
+  .mail {
+    left: 10%;
+    bottom: 100%;
+  }
+  .commentaire {
+    bottom: 20%;
+    right: 3%;
+    font-size: 1rem;
+    width: 17%;
+    height: 3em;
+  }
+  .commentaire h4 {
+    position: absolute;
+    top: -50%;
+    font-size: 1.2rem;
+  }
+
+  .valider {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    height: 7%;
+    width: 13%;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1650px) and (max-height: 1025px) {
+  
+  h1 {
+  top: 0.5%;
+  font-size: 2.8rem;
+}
+.Klik-box {
+  top: 13%;
+}
+  
+  .Form-1 {
+    left: 10%;
+    top: 18%;
+    width: 13%;
+    height: 3em;
+    font-size: 1.2rem;
+  }
+
+  .Form-2 {
+    left: 10%;
+    top: 52%;
+    width: 13%;
+    height: 3em;
+    font-size: 1.2rem;
+  }
+  .Form-3 {
+    right: 4%;
+    top: 18%;
+    width: 16%;
+    height: 4em;
+    font-size: 1.2rem;
+  }
+  .Form-3 h4 {
+    top: -80%;
+    font-size: 1.2rem;
+  }
+
+  .Form-4 {
+    right: 7%;
+    top: 40%;
+    width: 13%;
+    height: 5em;
+    font-size: 1.2rem;
+  }
+
+  .Form-4 h4 {
+    position: absolute;
+    top: -60%;
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    top: -100%;
+    font-size: 1.2rem;
+  }
+  .valider {
+    bottom: 7%;
+    right: 8%;
+    font-size: 1.5rem;
+    width: 12%;
+    height: 3em;
+  }
+  .Form-5 {
+    left: 10%;
+    top: 35%;
+    width: 13%;
+    height: 3em;
+    font-size: 1.2rem;
+  }
+
+ 
+.clearButton {
+  position: absolute;
+  top: 145%;
+}
+  .client {
+    left: 10%;
+    bottom: 8.5%;
+    font-size: 1.3rem;
+  }
+  .mail {
+    left: 10%;
+    bottom: 100%;
+  }
+  .commentaire {
+    bottom: 24%;
+    right: 3%;
+    font-size: 1rem;
+    width: 17%;
+    height: 3em;
+  }
+  .commentaire h4 {
+    position: absolute;
+    top: -50%;
+    font-size: 1.2rem;
+  }
+
+  .valider {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    height: 7%;
+    width: 13%;
+    font-size: 17px;
+  }
+}
