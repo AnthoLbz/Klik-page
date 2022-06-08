@@ -335,7 +335,7 @@ label {
   color: #f5a26c;
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1650px) and (max-height: 801px) {
+@media screen and (min-width: 1279px) and (max-width: 1650px) and (max-height: 870px) {
   
   h1 {
   top: -2%;
@@ -441,7 +441,7 @@ label {
     font-size: 17px;
   }
 }
-@media screen and (min-width: 1280px) and (max-width: 1650px) and (max-height: 1025px) {
+@media screen and (min-width: 1280px) and (max-width: 1650px) and (min-height: 871px) and (max-height: 1025px) {
   
   h1 {
   top: 0.5%;
