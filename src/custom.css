@@ -14,8 +14,13 @@
 }
 h1 {
   position: absolute;
-  top: 1%;
+  top: -3%;
   font-size: 3rem;
+}
+p {
+  position: absolute;
+  top: 6%;
+  font-size: 1.2rem;
 }
 .Klik-box {
   background-color: #f5a26c00;
@@ -335,16 +340,23 @@ label {
   color: #f5a26c;
 }
 
+.précision{
+  position: absolute;
+  right: 6%;
+  top: 92%;
+  font-size: 15px;
+
+}
+
 @media screen and (min-width: 1279px) and (max-width: 1650px) and (max-height: 870px) {
-  
   h1 {
-  top: -2%;
-  font-size: 2.5rem;
-}
-.Klik-box {
-  top: 10%;
-}
-  
+    top: -2%;
+    font-size: 2.5rem;
+  }
+  .Klik-box {
+    top: 10%;
+  }
+
   .Form-1 {
     left: 10%;
     top: 18%;
@@ -405,11 +417,10 @@ label {
     font-size: 1.2rem;
   }
 
- 
-.clearButton {
-  position: absolute;
-  top: 145%;
-}
+  .clearButton {
+    position: absolute;
+    top: 145%;
+  }
   .client {
     left: 10%;
     bottom: 8.5%;
@@ -442,15 +453,14 @@ label {
   }
 }
 @media screen and (min-width: 1280px) and (max-width: 1650px) and (min-height: 871px) and (max-height: 1025px) {
-  
   h1 {
-  top: 0.5%;
-  font-size: 2.8rem;
-}
-.Klik-box {
-  top: 13%;
-}
-  
+    top: 0.5%;
+    font-size: 2.8rem;
+  }
+  .Klik-box {
+    top: 13%;
+  }
+
   .Form-1 {
     left: 10%;
     top: 18%;
@@ -511,11 +521,10 @@ label {
     font-size: 1.2rem;
   }
 
- 
-.clearButton {
-  position: absolute;
-  top: 145%;
-}
+  .clearButton {
+    position: absolute;
+    top: 145%;
+  }
   .client {
     left: 10%;
     bottom: 8.5%;

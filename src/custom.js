@@ -36,6 +36,7 @@ function Custom() {
   const [imgUrl, setImgUrl] = useState(null);
   const [progresspercent, setProgresspercent] = useState(0);
   const [commentaire, setCommentaire] = useState("");
+  const [disabled, setDisabled] = useState(true);
 
   const handleChangeComplete = (color) => {
     setBackground(color.hex);
@@ -63,7 +64,7 @@ function Custom() {
       },
       (error) => {
         alert(error);
-        console.log(progresspercent)
+        console.log(progresspercent);
       },
       () => {
         getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
@@ -163,6 +164,20 @@ function Custom() {
     setBoutique(event.target.value);
   };
 
+  const disable = (event) => {
+    if (phone === "") {
+      document.getElementById("valider").disabled = true;
+    }
+    if (email === "") {
+      document.getElementById("valider").disabled = true;
+    }
+    if (boutique === "") {
+      document.getElementById("valider").disabled = true;
+    } else {
+      document.getElementById("valider").disabled = false;
+    }
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
     let templateParams = {
@@ -202,6 +217,7 @@ function Custom() {
     <div className="App">
       <header className="Container">
         <h1>Personnalisez votre KliK !</h1>
+        <p>Afin de pouvoir vous recontacter, merci de renseigner votre email, téléphone et enseigne.</p>
         <div className="Klik-box" style={{ backgroundColor: `${background}` }}>
           <img src={modèleImg} alt="Klik" className="Klik-modèle" />
           <div className={corner} />
@@ -328,7 +344,7 @@ function Custom() {
           <form onSubmit={handleSubmit} className="form">
             <input type="file" />
             <button type="submit" className="customButton">
-              Télécharger l'image
+              Afficher votre logo
             </button>
           </form>
 
@@ -340,7 +356,7 @@ function Custom() {
             <img src={imgUrl} alt=" " height={200} className="custom" />
           )}
           <button type="submit" className="clearButton" onClick={imageClear}>
-            Supprimer l'image
+            Supprimer le logo
           </button>
         </div>
         <div className="Form-4">
@@ -361,9 +377,16 @@ function Custom() {
             placeholder="Entrez votre commentaire"
           />
         </Form>
-        <button className="valider" type="submit" onClick={sendEmail}>
+        <button
+          className="valider"
+          id="valider"
+          type="submit"
+          onClick={sendEmail}
+          disabled={!phone && !email && !boutique}
+        >
           Validez votre design
         </button>
+        <p className="précision">Le bouton ne marche pas sans infos de contact</p>
       </header>
     </div>
   );
