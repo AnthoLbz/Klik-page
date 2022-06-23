@@ -36,7 +36,6 @@ function Custom() {
   const [imgUrl, setImgUrl] = useState(null);
   const [progresspercent, setProgresspercent] = useState(0);
   const [commentaire, setCommentaire] = useState("");
-  const [disabled, setDisabled] = useState(true);
 
   const handleChangeComplete = (color) => {
     setBackground(color.hex);
@@ -162,20 +161,6 @@ function Custom() {
   };
   const onBoutiqueChange = (event) => {
     setBoutique(event.target.value);
-  };
-
-  const disable = (event) => {
-    if (phone === "") {
-      document.getElementById("valider").disabled = true;
-    }
-    if (email === "") {
-      document.getElementById("valider").disabled = true;
-    }
-    if (boutique === "") {
-      document.getElementById("valider").disabled = true;
-    } else {
-      document.getElementById("valider").disabled = false;
-    }
   };
 
   const sendEmail = (e) => {
